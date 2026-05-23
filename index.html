@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AHAD JUS DUX is an India-based trade and commercial counsel practice supporting import-export businesses, shipping operations, logistics documentation, cross-border contracts, and intellectual property protection across the India-Middle East corridor." />
+  <meta name="theme-color" content="#071a2f" />
+  <title>AHAD JUS DUX | India-Middle East Trade & Commercial Counsel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("ahad-theme");
+      if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+    } catch (error) {}
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="theme-backgrounds" aria-hidden="true">
+    <div class="theme-bg bg-dark"></div>
+    <div class="theme-bg bg-light"></div>
+    <div class="theme-bg-overlay"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient-scene" aria-hidden="true">
+    <span class="orb orb-one"></span>
+    <span class="orb orb-two"></span>
+    <span class="orb orb-three"></span>
+    <span class="orb orb-four"></span>
+  </div>
+  <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+
+  <section id="introScreen" class="intro-screen" aria-label="Intro video">
+    <video id="introVideo" autoplay muted playsinline preload="auto">
+      <source src="intro.mp4" type="video/mp4" />
+      Your browser does not support video.
+    </video>
+    <div class="intro-vignette" aria-hidden="true"></div>
+    <div class="intro-controls glass-control" aria-label="Intro controls">
+      <button id="soundButton" type="button">Tap for Sound</button>
+      <button id="skipIntro" type="button">Enter Site</button>
+    </div>
+  </section>
+
+  <main id="website" class="website hidden">
+    <header id="navbar" class="navbar" data-glass>
+      <a href="#home" class="brand-area" aria-label="AHAD JUS DUX home">
+        <img src="logo.png" alt="AHAD JUS DUX Logo" class="nav-logo" />
+        <span class="brand-copy">
+          <strong>AHAD JUS DUX</strong>
+          <small>TRADE & COMMERCIAL COUNSEL</small>
+        </span>
+      </a>
+
+      <nav class="desktop-menu" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#model">Model</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#method">Method</a>
+        <a href="#team">Team</a>
+        <a href="#contact" class="menu-gold">Start a Matter</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to light mode">
+          <span class="theme-toggle-track" aria-hidden="true">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+        <button id="openMenu" class="mobile-menu-button" type="button" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div id="mobileMenu" class="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+      <button id="closeMenu" class="close-menu" type="button" aria-label="Close menu">×</button>
+      <a href="#home">Home</a>
+      <a href="#model">Model</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#method">Method</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Start a Matter</a>
+    </div>
+
+    <section id="home" class="hero-section panel-section section-dark">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-grid max-shell">
+        <div class="hero-content reveal" data-reveal="up">
+          <p class="eyebrow">India-Middle East Trade & Commercial Counsel</p>
+          <h1>
+            Operational legal support for businesses
+            <span>moving goods across borders.</span>
+          </h1>
+          <p class="hero-description">
+            AHAD JUS DUX is a boutique India-based commercial legal and trade-support practice for shipping, import-export, logistics, distributor networks, intellectual property, and cross-border commercial contracts.
+          </p>
+          <p class="main-tagline">External trade operations counsel for cross-border business.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="primary-button">Start a Trade Matter</a>
+            <a href="#services" class="secondary-button">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" data-reveal="scale" data-parallax="0.05">
+          <div class="hero-card liquid-card">
+            <div class="hero-card-topline">
+              <span>AHAD JUS DUX</span>
+              <span>Kochi, Kerala</span>
+            </div>
+            <img src="logo.png" alt="AHAD JUS DUX Logo" class="hero-logo-image" />
+            <div class="hero-card-copy">
+              <p>Corridor Focus</p>
+              <h2>India | Middle East</h2>
+            </div>
+          </div>
+          <div class="floating-card floating-card-one liquid-mini">
+            <span>Headquarters</span>
+            <strong>Kochi, Kerala</strong>
+          </div>
+          <div class="floating-card floating-card-two liquid-mini">
+            <span>Model</span>
+            <strong>Trade Operations Counsel</strong>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom max-shell">
+        <div class="trust-strip liquid-strip reveal" data-reveal="up">
+          <span>Shipping Documentation</span>
+          <span>Commercial Contracts</span>
+          <span>Trademark Protection</span>
+          <span>Market Entry</span>
+        </div>
+        <a href="#model" class="scroll-cue" aria-label="Scroll to core model">
+          <span></span>
+          Scroll
+        </a>
+      </div>
+    </section>
+
+    <section id="model" class="panel-section section-light">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">Core Model</p>
+          <h2 class="section-title">Built as trade operations counsel, not a generic law office.</h2>
+          <p class="section-intro">
+            The practice is designed around recurring operational legal support for companies that move goods internationally. The focus is practical continuity: documents, contracts, trade risk, coordination, and commercial readiness.
+          </p>
+        </div>
+
+        <div class="feature-strip stagger-group">
+          <article class="glass-card reveal" data-reveal="up">
+            <span class="card-number">01</span>
+            <h3>Trade-first advisory</h3>
+            <p>Legal support shaped around import-export workflows, shipping documentation, logistics relationships, and commercial delivery.</p>
+          </article>
+          <article class="glass-card reveal" data-reveal="up">
+            <span class="card-number">02</span>
+            <h3>Operational continuity</h3>
+            <p>Support for businesses that need recurring help, not just one-time drafting or dispute response.</p>
+          </article>
+          <article class="glass-card reveal" data-reveal="up">
+            <span class="card-number">03</span>
+            <h3>Commercial judgment</h3>
+            <p>Contracts and legal notes prepared for business decisions, partner negotiations, risk control, and execution.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="panel-section section-dark">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">What We Do</p>
+          <h2 class="section-title">Specialized support for shipping, trade, contracts, IP, and market-entry work.</h2>
+        </div>
+
+        <div class="six-card-grid stagger-group">
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">⚓</span>
+            <h3>Shipping & Logistics Documentation</h3>
+            <p>Operational support for shipping papers, logistics terms, freight coordination documents, warehouse arrangements, and trade-linked records.</p>
+          </article>
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">📦</span>
+            <h3>Import-Export Operational Support</h3>
+            <p>Legal and commercial assistance for businesses managing recurring import-export movement, vendor coordination, and documentation flow.</p>
+          </article>
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">📄</span>
+            <h3>Cross-Border Commercial Contracts</h3>
+            <p>Preparation and review of supplier agreements, distributor contracts, logistics agreements, service terms, and operating frameworks.</p>
+          </article>
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">🧭</span>
+            <h3>India Market-Entry Support</h3>
+            <p>India-facing legal readiness for foreign businesses entering the Indian market through suppliers, distributors, partners, or operating structures.</p>
+          </article>
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">®</span>
+            <h3>IP & Trademark Protection</h3>
+            <p>Trademark filing support, brand protection planning, IP ownership review, licensing terms, and documentation for product-led businesses.</p>
+          </article>
+          <article class="service-card glass-card reveal" data-reveal="up">
+            <span class="card-icon">🤝</span>
+            <h3>Trade Coordination Systems</h3>
+            <p>Coordination with chartered accountants, customs consultants, freight forwarders, and specialist advisors where matters require joined-up execution.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="panel-section section-light">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">Who We Help</p>
+          <h2 class="section-title">For businesses that trade internationally but do not need a large in-house legal department.</h2>
+        </div>
+
+        <div class="client-grid stagger-group">
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">01</span><h3>Importers & Exporters</h3><p>Companies moving products across borders and needing recurring legal, document, and contract support.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">02</span><h3>Freight Forwarders</h3><p>Businesses handling shipment coordination, logistics terms, customer documentation, and operational agreements.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">03</span><h3>Logistics Companies</h3><p>Operators managing storage, transport, fulfilment, warehousing, and trade-linked commercial relationships.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">04</span><h3>Gulf-Linked Traders</h3><p>India and Middle East trading companies working through suppliers, distributors, buyers, and regional partners.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">05</span><h3>Manufacturing Exporters</h3><p>Product manufacturers needing supplier contracts, export readiness, trademark support, and distributor structures.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">06</span><h3>E-Commerce Import Businesses</h3><p>Product importers managing brand rights, vendor terms, documentation, logistics partners, and market expansion.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cinematic-band section-dark" aria-label="Distinctive Positioning">
+      <div class="max-shell cinematic-shell liquid-card reveal" data-reveal="up">
+        <div>
+          <p class="section-label">Distinctive Positioning</p>
+          <h2>Commercially useful legal support inside the trade ecosystem.</h2>
+          <p>
+            AHAD JUS DUX is positioned for the space between traditional legal advice and daily trade operations. The firm helps clients keep documentation, commercial contracts, partner relationships, and trade risk aligned before problems become expensive.
+          </p>
+        </div>
+        <div class="desk-points">
+          <span>External Trade Operations Counsel</span>
+          <span>India-Middle East Commercial Support</span>
+          <span>Responsive Documentation & Contract Systems</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="panel-section section-light">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">How We Work</p>
+          <h2 class="section-title">A practical workflow for recurring trade and commercial support.</h2>
+        </div>
+
+        <div class="process-grid stagger-group">
+          <article class="process-card glass-card reveal" data-reveal="up"><span class="pill">Step 01</span><h3>Understand the Trade Flow</h3><p>We begin with the product, parties, route, documents, commercial terms, timeline, and jurisdictional exposure.</p></article>
+          <article class="process-card glass-card reveal" data-reveal="up"><span class="pill">Step 02</span><h3>Map the Risk Points</h3><p>We identify contract gaps, documentation issues, IP concerns, supplier risks, distributor obligations, and operational friction.</p></article>
+          <article class="process-card glass-card reveal" data-reveal="up"><span class="pill">Step 03</span><h3>Prepare the Legal Work</h3><p>We deliver contracts, review notes, filing support, documentation checklists, issue briefs, or coordination plans.</p></article>
+          <article class="process-card glass-card reveal" data-reveal="up"><span class="pill">Step 04</span><h3>Support Continuity</h3><p>Where clients need recurring help, we support them through retainers, fixed-fee work, and ecosystem coordination.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="engagement" class="panel-section section-dark">
+      <div class="max-shell two-column reveal" data-reveal="up">
+        <div class="section-heading sticky-copy">
+          <p class="section-label">Engagement Models</p>
+          <h2 class="section-title">Structured for recurring operational support and clear commercial pricing.</h2>
+        </div>
+        <div class="engagement-list stagger-group">
+          <article class="glass-card reveal" data-reveal="right"><h3>Monthly Retainers</h3><p>Ongoing trade documentation support, commercial contract review, operational advisory, and shipping or logistics support.</p></article>
+          <article class="glass-card reveal" data-reveal="right"><h3>Fixed-Fee Commercial Work</h3><p>Supplier agreements, distributor contracts, trademark registration support, logistics agreements, and market-entry documents.</p></article>
+          <article class="glass-card reveal" data-reveal="right"><h3>Cross-Border Structuring Work</h3><p>India-facing commercial structures, distributor frameworks, operational contract systems, and coordinated trade support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="panel-section section-light">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">Team & Ecosystem</p>
+          <h2 class="section-title">A lean team supported by trade, tax, customs, and logistics relationships.</h2>
+        </div>
+
+        <div class="team-grid stagger-group">
+          <article class="person-card glass-card reveal" data-reveal="up"><span class="avatar"></span><h3>Commercial & Trade Lawyer</h3><p>Leads commercial contracts, trade advisory, client legal strategy, and quality control.</p></article>
+          <article class="person-card glass-card reveal" data-reveal="up"><span class="avatar"></span><h3>Shipping Documentation Specialist</h3><p>Supports logistics records, shipping documents, operational workflows, and document readiness.</p></article>
+          <article class="person-card glass-card reveal" data-reveal="up"><span class="avatar"></span><h3>IP & Trademark Counsel</h3><p>Handles trademark filings, brand protection, IP ownership, licensing terms, and product identity protection.</p></article>
+          <article class="person-card glass-card reveal" data-reveal="up"><span class="avatar"></span><h3>Trade Operations Coordinator</h3><p>Coordinates client intake, document flow, external advisors, and recurring operational support.</p></article>
+        </div>
+
+        <div class="partner-strip reveal" data-reveal="up">
+          <span>Chartered Accountants</span>
+          <span>Customs Consultants</span>
+          <span>Freight Forwarders</span>
+          <span>Logistics Advisors</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel-section roadmap-section section-light">
+      <div class="max-shell">
+        <div class="section-heading reveal" data-reveal="up">
+          <p class="section-label">Growth Trajectory</p>
+          <h2 class="section-title">From Kochi-based trade support to a recognized India-Middle East commercial advisory niche.</h2>
+        </div>
+
+        <div class="roadmap-grid stagger-group">
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">Year 1</span><h3>Build trade relationships</h3><p>Acquire SME importer and exporter clients, connect with freight and customs networks, and establish credibility in logistics circles.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">Years 2-3</span><h3>Expand retainers</h3><p>Develop recurring client relationships, referral networks, and a stronger name inside India-Middle East trade operations.</p></article>
+          <article class="glass-card reveal" data-reveal="up"><span class="pill">Years 3-5</span><h3>Deepen the niche</h3><p>Handle larger commercial trade mandates, expand into maritime commercial advisory, trade-risk management, and arbitration support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="matter-section section-dark">
+      <div class="max-shell matter-box liquid-card reveal" data-reveal="up">
+        <div class="matter-copy">
+          <p class="section-label">Start a Matter</p>
+          <h2>Tell us what you are importing, exporting, signing, protecting, or trying to structure.</h2>
+          <p>
+            Share the product, route, parties, documents, and commercial issue. We will help identify the legal and operational next steps for your trade or commercial matter.
+          </p>
+          <div class="contact-lines">
+            <span>✉ contact@ahadjusdux.com</span>
+            <span>⌖ Kochi, Kerala</span>
+            <span>India-Middle East Corridor</span>
+          </div>
+        </div>
+
+        <form id="matterForm" class="matter-form" aria-label="Matter enquiry form">
+          <label><span>Name</span><input id="name" type="text" placeholder="Your name" required /></label>
+          <label><span>Email</span><input id="email" type="email" placeholder="you@example.com" required /></label>
+          <label><span>Company</span><input id="company" type="text" placeholder="Company name" /></label>
+          <label><span>Location</span><input id="location" type="text" placeholder="City, country" /></label>
+          <label><span>Matter type</span>
+            <select id="matterType" aria-label="Matter type">
+              <option value="">Select matter type</option>
+              <option>Import-export support</option>
+              <option>Shipping or logistics documentation</option>
+              <option>Commercial contract review</option>
+              <option>Supplier or distributor agreement</option>
+              <option>Trademark or IP protection</option>
+              <option>India market-entry support</option>
+              <option>Other trade matter</option>
+            </select>
+          </label>
+          <label class="full"><span>Message</span><textarea id="message" placeholder="Briefly describe the matter"></textarea></label>
+          <button type="submit">Submit Enquiry</button>
+          <p id="formNote" class="form-note">This opens your email app with the enquiry details.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer section-dark">
+      <div class="max-shell footer-inner">
+        <div>
+          <h3>AHAD JUS DUX</h3>
+          <p>India-Middle East Trade & Commercial Counsel</p>
+          <p class="footer-tagline">External trade operations counsel for cross-border business.</p>
+        </div>
+        <p class="disclaimer">
+          The information on this website is provided for general informational purposes only and does not constitute legal advice. Accessing this website or submitting an enquiry does not create a lawyer-client relationship. Legal services, where required, are provided subject to applicable professional rules, jurisdictional limits, and written engagement terms. Middle East or foreign law matters may require coordination with qualified local counsel.
+        </p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#model">Model</a>
+          <a href="#services">Services</a>
+          <a href="#clients">Clients</a>
+          <a href="#method">Method</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Start a Matter</a>
+        </nav>
+      </div>
+      <div class="max-shell footer-bottom">
+        <span>© 2026 AHAD JUS DUX. All rights reserved.</span>
+        <span>Kochi, Kerala | India-Middle East Corridor</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
